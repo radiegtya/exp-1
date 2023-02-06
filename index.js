@@ -9,7 +9,7 @@ const client = new microgenV3.MicrogenClient({
 })
 
 app.get('/', (req, res) => {
-  res.send('Hello World from github!')
+  res.send('Hello World from blibli!')
 })
 
 app.get("/products", async (req, res) => {
